@@ -7,14 +7,19 @@ html {
     box-sizing: inherit;
 }
 
+body {
+	margin: 20px;
+}
+
 /* head top of page */
 
 h1 {
 	background: url(images/bighead.jpg);
 	background-repeat: no-repeat;
+	width: 100%;
 	margin: 10px;
-	padding: 200px;
-	color: #87CEFA;
+	padding: 150px;
+	color: 	#2E8B57;
 	letter-spacing: 4px;
 	font-size: 3em;
 	font-family: helvetica, sans-serif;
@@ -22,8 +27,9 @@ h1 {
 
 }
  
- .icon fa-bars {
+ nav i {
  	float: right;
+ 	color: #FFD700;
  }
 
 
@@ -31,6 +37,7 @@ h1 {
 
 .navigation {
 	list-style-type: none;
+
 
 }
 
@@ -50,14 +57,55 @@ h1 {
 
 h2, h3 {
 	font-size: 1em;
-	color: #87CEEB;
-	font-family: Impact, Charcoal, sans-serif;
+	color: #008000;
+	font-family: helvetica, sans-serif;
 }
+
+
 
 /* amenities */
 
 .icons ul {
 	list-style-type: none;
-	float: right;
+	float: left;
 	margin: 20px;
+	color: #FFD700;
+}
+
+
+/* cabin thumbnails */
+.gallery {
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+
+}
+
+.gallery_images {
+	display: block;
+	position: relative;
+}
+
+.gallery h2 {
+	position: absolute;
+	margin: 0 auto;
+	top: 65%;
+	left: 60%;
+	color: #B0E0E6;
+	font-size: 1.5em;
+	
+}
+
+p {
+	text-decoration: none;
+}
+
+/* footer */
+
+footer {
+	clear: both;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
 }
