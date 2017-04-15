@@ -7,3 +7,57 @@ html {
     box-sizing: inherit;
 }
 
+/* head top of page */
+
+h1 {
+	background: url(images/bighead.jpg);
+	background-repeat: no-repeat;
+	margin: 10px;
+	padding: 200px;
+	color: #87CEFA;
+	letter-spacing: 4px;
+	font-size: 3em;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+
+}
+ 
+ .icon fa-bars {
+ 	float: right;
+ }
+
+
+/* main navigation */
+
+.navigation {
+	list-style-type: none;
+
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #008000;
+	font-size: 1em;
+	letter-spacing: 4px;
+}
+
+.navigation a:hover {
+	color: #FFD700;
+}
+
+
+/* headers */
+
+h2, h3 {
+	font-size: 1em;
+	color: #87CEEB;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+/* amenities */
+
+.icons ul {
+	list-style-type: none;
+	float: right;
+	margin: 20px;
+}
