@@ -28,12 +28,64 @@ h1 {
 	text-transform: uppercase;
 
 }
+
+/* nav bars and js menu */
  
  nav i {
  	float: right;
- 	color: #FFD700;
+ 	color: #000;
+ 	cursor: pointer;
 
  }
+   .nav ul {
+     margin-top: 1.5em;
+     list-style-type: none;
+   }
+   .nav li {
+     margin: 1em 0;
+     position: relative;
+   }
+   .nav a {
+     color: #008000;
+     text-decoration: none;
+   }
+   .nav .close-icon {
+     font-style: normal;
+     position: absolute;
+     top: 0.9rem;
+     right: 1rem;
+     line-height: 1;
+     color: yellow;
+     cursor: pointer;
+   }
+  
+   .nav li.is-active:before {
+     content: '';
+     width: 0;
+     height: 0;
+     border: 0.5rem solid transparent;
+     border-left-color: #008000;
+     position: absolute;
+     left: -.75em;
+     top: 50%;
+     transform: translateY(-50%);
+   }
+   /* nav-open */
+   .nav-open {
+     overflow: hidden;
+   }
+   .nav-open .nav {
+     position: absolute;
+     display: block;
+     border: 1px solid #008000;
+     width: 50%;
+     min-height: 100%
+   }
+
+
+
+
+
 
 
 /* main navigation */
@@ -150,3 +202,4 @@ footer {
 	margin: 2px;
 	padding: 2px;
 }
+
