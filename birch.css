@@ -34,7 +34,7 @@ h1 {
  nav i {
  	float: right;
  	color: #000;
- 	cursor: pointer;
+ 	transform: translate(-50%);
 
  }
    .nav ul {
@@ -42,7 +42,7 @@ h1 {
      list-style-type: none;
    }
    .nav li {
-     margin: 1em 0;
+     margin: 2em 0;
      position: relative;
    }
    .nav a {
@@ -50,43 +50,35 @@ h1 {
      text-decoration: none;
    }
    .nav .close-icon {
-     font-style: normal;
+     font-family: helvetica, sans-serif;
      position: absolute;
-     top: 0.9rem;
+     top: 0.8rem;
      right: 1rem;
-     line-height: 1;
-     color: yellow;
-     cursor: pointer;
+     color: blue;
    }
   
    .nav li.is-active:before {
      content: '';
-     width: 0;
-     height: 0;
+     width: 0 auto;
+     height: 0 auto;
      border: 0.5rem solid transparent;
      border-left-color: #008000;
      position: absolute;
      left: -.75em;
      top: 50%;
-     transform: translateY(-50%);
    }
    /* nav-open */
+
    .nav-open {
      overflow: hidden;
    }
    .nav-open .nav {
      position: absolute;
      display: block;
-     border: 1px solid #008000;
+     border: 3px solid #008000;
      width: 50%;
      min-height: 100%
    }
-
-
-
-
-
-
 
 /* main navigation */
 
